@@ -1,6 +1,7 @@
 #include "pch.h"
 
 #include "screenShot.h"
+#include "trk.h"
 
 #include "cmdline.h"
 
@@ -9,7 +10,7 @@
 
 #ifndef CATCH_CONFIG_MAIN
 int main(int argc, char *argv[]) {
-	screenShot();
-	//showTrk();
+	//screenShot();
+	showTrk();
 }
 #endif//CATCH_CONFIG_MAIN

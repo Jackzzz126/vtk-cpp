@@ -17,4 +17,10 @@ using namespace std;
 #include <vtkSphereSource.h>
 #include <vtkWindowToImageFilter.h>
 #include <vtkPNGWriter.h>
+#include <vtkNew.h>
+#include <vtkCellArray.h>
+#include <vtkFloatArray.h>
+#include <vtkTransform.h>
+#include <vtkNamedColors.h>
+#include <vtkProperty.h>
 
